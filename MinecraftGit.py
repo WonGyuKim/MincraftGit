@@ -2,25 +2,24 @@ import subprocess
 import time
 
 directory = 'bedrock-server/'
-program = 'bedrock_server.exe'
+program = 'executor.py'
 
-p = subprocess.Popen('powershell.exe', stdin=subprocess.PIPE)
-p.stdin.write(bytes('cd ' + directory + '\n', encoding='utf8'))
-p.stdin.flush()
+#p1 = subprocess.Popen('powershell.exe', stdin=subprocess.PIPE)
+#p1.stdin.write(bytes('cd ' + directory + '\n', encoding='utf8'))
+#p1.stdin.write(bytes('./' + program + '\n', encoding='utf8'))
+#p1.wait()
 
-p.stdin.write(bytes('./' + program + '\n', encoding='utf8'))
-p.stdin.flush()
+p1 = subprocess.Popen('powershell.exe', stdin=subprocess.PIPE)
+p1.stdin.write(bytes('./' + program, encoding='utf8'))
+p1.communicate()
 
-#p.communicate(bytes('cd ' + directory, encoding='utf8'))
+#p1 = subprocess.Popen('powershell.exe', stdin=subprocess.PIPE)
+#p1.stdin.write(bytes('notepad', encoding='utf8'))
 
-#p = subprocess.call('powershell.exe', stdin=subprocess.PIPE)
+#print('return code : ' + p1.returncode)
+#if p1.returncode == 0:
+#p2 = subprocess.Popen('powershell.exe', stdin=subprocess.PIPE)
+#print(p2._waitpid_lock)
+#p2.stdin.write(bytes('git branch\n', encoding='utf8'))
 
 
-
-#p = subprocess.Popen('powershell.exe', stdin=subprocess.PIPE)
-#p.communicate(bytes('./' + program, encoding='utf8'))
-
-#p.stdin.write(bytearray(['cd ' + directory]))
-#p.communicate()
-#out = p.communicate(input='cd ' + directory)
-#p.stdin.write(['cd', directory])
