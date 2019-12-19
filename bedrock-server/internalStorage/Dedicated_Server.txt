@@ -1,0 +1,12 @@
+C:/Users/김원규/Desktop/새 폴더/파이썬연습/MinecraftGit/bedrock-server/internalStorage/Dedicated_Server.txt
+[2019-12-19 11:49:26 INFO] Starting Server
+[2019-12-19 11:49:26 INFO] Version 1.14.0.9
+[2019-12-19 11:49:26 INFO] Session ID 40e34d45-243c-4d4e-b839-16a629e7ed2f
+[2019-12-19 11:49:26 INFO] Level Name: Bedrock level
+[2019-12-19 11:49:26 INFO] Game mode: 0 Survival
+[2019-12-19 11:49:26 INFO] Difficulty: 1 EASY
+[2019-12-19 11:49:27 INFO] IPv4 supported, port: 19132
+[2019-12-19 11:49:27 INFO] IPv6 supported, port: 19133
+[2019-12-19 11:49:27 INFO] IPv4 supported, port: 54412
+[2019-12-19 11:49:27 INFO] IPv6 supported, port: 54413
+[2019-12-19 11:49:28 INFO] Server started.
